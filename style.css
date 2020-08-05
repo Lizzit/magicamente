@@ -1,0 +1,319 @@
+/*------------------------
+Generale
+------------------------*/
+
+body {
+    width: 100%;
+    background-image: -moz-linear-gradient(left, #a9d2f8 0%, #d40ee6);
+    background-image: -o-linear-gradient(left, #a9d2f8 0%, #d40ee6);
+    background-image: linear-gradient(left, #a9d2f8 0%, #d40ee6);
+    background-image: -webkit-linear-gradient(left, #a9d2f8 0%, #d40ee6);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+p a {
+    color: blue;
+}
+
+iframe {
+    float: left;
+    margin-right: 30px;
+}
+
+.utenti {
+    position: absolute;
+    width: 100%;
+    margin: 0 4%;
+    height: 400px;
+}
+
+.w200 {
+    width: 20%;
+    float: left;
+    margin: 1.5%;
+}
+
+.corpo {
+    padding: 0 10% 0 10%;
+    height: 100%;
+}
+
+.head {
+    height: 950px;
+}
+
+.right {
+    float: right;
+}
+
+.right h3 {
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.profilo {
+    height: 200px;
+    width: 100%;
+    border: solid 1px red;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.btn-fb {
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 10px;
+    background: #48619f;
+}
+
+.btn-tw {
+    width: 150px;
+}
+
+b {
+    line-height: 40px;
+}
+
+.widget {
+    float: left;
+    width: 100%;
+    margin: 12px 0;
+    background-color: #fff;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2)
+}
+
+.widget h1,
+.widget h2,
+.widget h3 {
+    padding: 15px;
+    letter-spacing: -1px;
+    border-bottom: 1px solid #eceff1
+}
+
+.widget h1 {
+    font-size: 24px;
+    line-height: 28px
+}
+
+.widget h2 {
+    font-size: 22px;
+    line-height: 26px
+}
+
+.widget h3 {
+    font-size: 20px;
+    line-height: 24px
+}
+
+.social {
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    width: 300px;
+    height: 70px;
+    float: left;
+}
+
+.social a {
+    display: block;
+    float: left;
+    width: 49%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+
+.btn-fb {
+    background: url(img/social-sprite.png) no-repeat;
+    background-color: #48619f;
+    background-position: 0 0;
+    margin-right: 1.9%
+}
+
+.btn-tw {
+    background: url(img/social-sprite.png) no-repeat;
+    background-color: #55aaf0;
+    background-position: 0 -40px
+}
+
+#sidebar {
+    width: 300px;
+    float: left
+}
+
+.right {
+    margin-left: 19px
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#main {
+    width: 100%;
+    float: left;
+    min-height: 600px;
+    margin-bottom: 40px
+}
+
+
+/*----------------------------------
+Cards
+----------------------------------*/
+
+.cards {
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.cards h2 {
+    margin-left: 1.5%;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.cards_card {
+    width: 30%;
+    margin: 0 1.5%;
+    background: white;
+    float: left;
+    border-radius: 25px;
+}
+
+.margin {
+    margin: 0 10%;
+}
+
+.cards_card_img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.cards_card_copy {
+    padding: 5px 20px;
+}
+
+.cards_card_copy h3 {
+    margin-bottom: 0;
+}
+
+section>a>div>div>h3 {
+    color: #000000;
+}
+
+section>a>div>div>p {
+    color: #000000;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px
+    }
+    #sidebar {
+        width: 350px
+    }
+    .right {
+        margin-left: 24px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+    .container {
+        width: 100%
+    }
+    #sidebar {
+        width: 100%
+    }
+    .right {
+        margin-left: 0
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%
+    }
+    .social a {
+        width: 100%
+    }
+    .btn-fb {
+        margin-right: 0;
+        margin-bottom: 10px
+    }
+    #sidebar {
+        width: 100%
+    }
+    .right {
+        margin-left: 0
+    }
+    .social {
+        height: 120px;
+    }
+    .cards {
+        margin: 0;
+    }
+    .cards h2 {
+        margin-left: 5%;
+    }
+    .cards_card {
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+
+/*---------------------------------
+Reset Posizioni
+---------------------------------*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
